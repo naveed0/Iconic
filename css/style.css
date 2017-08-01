@@ -1,0 +1,183 @@
+.holder{
+  padding: 0px 25px;
+}
+.header{
+  background: url('../images/header-bg.png') repeat-x;
+}
+.logo{
+  padding: 25px 30px;
+  position: relative;
+  min-height: 85px;
+}
+.logo::before{
+  content: '.';
+  position: absolute;
+  background: url('../images/header-bg2.png') no-repeat;
+  width: 100%;
+  bottom: -8px;
+  height: 35px;
+  left: 5px;
+}
+.navbar-default .navbar-nav > li > a{
+  padding: 0px;
+  font-weight: bold;
+  color: #282829;
+}
+.navbar-default .navbar-nav > li > a.active, .navbar-default .navbar-nav > li > a:hover{
+  color: #EF4200;
+}
+.navbar-nav > li{
+  padding: 24px 8px 0 8px;
+}
+.banner{
+  background: #ffae22;
+  background: linear-gradient(to bottom, #ffae22 0%,#fa9e1c 23%,#e76506 77%,#e25500 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffae22', endColorstr='#e25500',GradientType=0 );
+  padding: 25px 0 0 0;
+  margin: -25px 0 0 0;
+}
+.caption{
+  padding: 66px 0 0 10px;
+}
+.caption-h{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 30px;
+  margin: 0px;
+}
+.caption-p{
+  color: #FFDD9B;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+.laptop img{
+  margin-bottom: -15px;
+}
+.user{
+  padding: 30px 0 0 10px;
+}
+.user p{
+  font-size: 18px;
+  font-style: italic;
+}
+.middle{
+  padding: 30px 0 0 10px;
+}
+.box{
+  padding: 7px 0 0 0 ;
+}
+.box a{
+  color: #F45353;
+}
+.box p{
+  color: #959596;
+  font-size: 13px;
+}
+ul{
+  padding: 0px;
+  list-style-type: none;
+}
+.aside{
+  padding: 5px  0 0 0;
+}
+.aside ul li.blog{
+  font-size: 18px;
+  padding: 12px 0 5px 15px;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, #ffffff 0%, #fbfbfb 2%, #ededed 5%, #e6e6e6 7%, #e5e5e5 9%, #e5e5e5 91%, #e6e6e6 93%, #ededed 95%, #fbfbfb 98%, #ffffff 100%);
+  background: -webkit-linear-gradient(top, #ffffff 0%,#fbfbfb 2%,#ededed 5%,#e6e6e6 7%,#e5e5e5 9%,#e5e5e5 91%,#e6e6e6 93%,#ededed 95%,#fbfbfb 98%,#ffffff 100%);
+  background: linear-gradient(to bottom, #ffffff 0%,#fbfbfb 2%,#ededed 5%,#e6e6e6 7%,#e5e5e5 9%,#e5e5e5 91%,#e6e6e6 93%,#ededed 95%,#fbfbfb 98%,#ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+.aside ul li{
+  border: 1px solid #E7E7E7;
+  padding: 7px;
+}
+.post-link{
+  color: #F45353;
+  font-size: 12px;
+}
+.post-link:hover{
+  text-decoration: none;
+  color: black;
+}
+.post-date{
+  font-size: 12px;
+  color: #959596;
+}
+.footer{
+  margin: 30px 0 0 0;
+  background: #aa7417;
+  background: -moz-linear-gradient(top, #aa7417 0%, #cd8b1b 4%, #e79b1d 8%, #f6a21e 12%, #fca41e 16%, #e45f04 84%, #e15d03 86%, #d35402 90%, #be4a01 94%, #a03d00 98%, #c39377 100%);
+  background: -webkit-linear-gradient(top, #aa7417 0%,#cd8b1b 4%,#e79b1d 8%,#f6a21e 12%,#fca41e 16%,#e45f04 84%,#e15d03 86%,#d35402 90%,#be4a01 94%,#a03d00 98%,#c39377 100%);
+  background: linear-gradient(to bottom, #aa7417 0%,#cd8b1b 4%,#e79b1d 8%,#f6a21e 12%,#fca41e 16%,#e45f04 84%,#e15d03 86%,#d35402 90%,#be4a01 94%,#a03d00 98%,#c39377 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa7417', endColorstr='#c39377',GradientType=0 );
+}
+.footer-nav ul li{
+  display: inline-block;
+  padding: 20px 5px 10px 0;
+}
+.footer-nav ul li a{
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+.copy-right p{
+  float: right;
+  font-size: 11px;
+  color: white;
+  padding: 22px 0 0 0;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 760px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-nav > li{
+    padding: 24px 6px 0px 6px;
+  }
+  .caption-h{
+    font-size: 22px;
+  }
+  .caption{
+    padding: 30px 0 0 10px;
+  }
+}
+@media (max-width:768px) {
+  .container{
+    padding:0px;
+  }
+  .logo a img{
+    min-width: 80px;
+  }
+  .caption-h{
+    font-size: 20px;
+  }
+  .divider{
+    display: none;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: white;
+  }
+}
+@media (max-width: 400px) {
+  .laptop img{
+    margin: 0 0 -5px 0;
+  }
+}
